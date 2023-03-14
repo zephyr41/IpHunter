@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Tue Mar 14 13:06:54 2023 as: nmap -sC -sV -oN 172.20.10.10 resultscan.txt
+Failed to resolve "resultscan.txt".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Tue Mar 14 13:06:54 2023 -- 0 IP addresses (0 hosts up) scanned in 0.32 seconds
