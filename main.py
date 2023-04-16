@@ -1,14 +1,10 @@
-import os
 
+import nmap3
 
-os.system("clear") #To clear the terminal
+nmap = nmap3.Nmap()
+scanner = nmap.PortScanner()
 
-print("Welcome : ")
-print("[this is most worse in sudo, so if not work, run in sudo]\n") # for problem 
-print ("Enter the target you want attack, or Nmap plage ip : ") 
-input1 = input() # for scan terminal
-nmap_Command = ("nmap -sV -oX /Users/nils/Desktop/output.xml " +  input1) #temp var for run the command
+print("welcome, this is simple nmap automation tool")
 
-#print('\nStarting command for this target -> ' + input1) #print a message
-os.system(nmap_Command)# run the command
-print("\n")
+ip_addr = input("Please Enter the ip address want to scan")
+
